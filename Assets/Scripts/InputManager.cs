@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
@@ -8,6 +9,8 @@ public class InputManager : MonoBehaviour
     
 
     public Vector2 moveDir;
+
+    [HideInInspector] public UnityEvent OnBombPressed; 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
