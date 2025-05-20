@@ -6,15 +6,12 @@ public class MovementController : MonoBehaviour
     CharacterController characterController;
 
     [SerializeField] float speed;
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         inputManager = GetComponent<InputManager>();
         characterController = GetComponent<CharacterController>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (inputManager.moveDir.magnitude != 0)
@@ -23,6 +20,14 @@ public class MovementController : MonoBehaviour
             characterController.Move(transform.forward * speed * Time.deltaTime);
         }
         
+    }
+    
+    public void DisablePlayer()
+    {
+        GetComponent<PlayerBombManager>().enabled = false;
+        characterController.enabled = false;
+        GetComponent<MeshRenderer>().enabled = false;
+        this.enabled = false;
     }
 
 }

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7425719461286656997
+--- !u!114 &-4787323833935893411
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,9 +20,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ExtraRange
+  m_Name: P2 Material
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_Parent: {fileID: 2100000, guid: 6fc81ab92b1c1d946a545a0d5f0d3b7a, type: 2}
+  m_Parent: {fileID: 2100000, guid: 4141113a806f7254db34b7378b00f603, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -39,10 +39,9 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Ints: []
-    m_Floats:
-    - _Metallic: 0
+    m_Floats: []
     m_Colors:
-    - _BaseColor: {r: 0.5771115, g: 0.9245283, b: 0.42301533, a: 1}
-    - _Color: {r: 0.57711136, g: 0.9245283, b: 0.4230153, a: 1}
+    - _BaseColor: {r: 0.08395338, g: 0, b: 1, a: 1}
+    - _Color: {r: 0.08395337, g: 0, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
